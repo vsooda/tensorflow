@@ -29,9 +29,9 @@ bind(
 
 git_repository(
     name = "grpc",
-    commit = "73979f4",
+    commit = "2ed9c2b",
     init_submodules = True,
-    remote = "https://github.com/grpc/grpc.git",
+    remote = "https://github.com/vsooda/grpc.git",
 )
 
 # protobuf expects //external:grpc_cpp_plugin to point to grpc's
